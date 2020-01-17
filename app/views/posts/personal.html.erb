@@ -1,0 +1,15 @@
+<div class="main-posts-personal">
+  <div class="personal-container">
+    <%= link_to("投稿する" ,"/posts/new") %>
+  </div>
+    <% @posts.each do |post| %>
+  <div class="posts-personal-item">
+    <%= link_to(l(post.created_at),"/posts/#{post.id}") %>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <%= link_to(post.content ,"/posts/#{post.id}") %>
+  </div>
+    <% end %>
+  <div class="personal-container2">
+    <%= link_to("ログアウト", "/logout", {method: :post}) %>
+  </div>
+</div>

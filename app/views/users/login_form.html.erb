@@ -1,0 +1,19 @@
+<div class="form-heading">ログイン</div>
+  <div class="form-users-form">
+    <% if @error_message %>
+    <div class="form error">
+      <%= @error_message %>
+    </div>
+    <% end %>
+
+    <%= form_tag("/login") do %>
+    <div class="form-body">
+      <p>ユーザー名</p>
+      <input name="name" value="<%= @name %>" autocomplete="off">
+      <p>パスワード</p>
+      <input name="password" type="password" value="<%= @password %>" autocomplete="off">
+      <input type="submit" value="ログイン">
+    </div>
+    <% end %>
+  </div>
+</div>

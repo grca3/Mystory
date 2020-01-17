@@ -1,0 +1,478 @@
+/* mobile-tab media  */
+
+/* tophtml */
+body {
+  margin: 0;
+  font-family: 'HiraMinProN-W6', Arial, sans-serif;
+  user-select: none;
+  font-size: 36px;
+}
+
+/* header関係 */
+header {
+  background-color:  #c7c2c279;
+  height: 120px;
+}
+.top {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 24px;
+}
+.header-menus {
+  background: #eaff8d;
+  width: 280px;
+  float: right;
+  border-radius: 60%;
+  padding: 8px 30px;
+  margin: 26px 28px;
+}
+ul, li {
+  list-style-type: none;
+  font-size: 30px;
+}
+
+/* bodyのhtml */
+img {
+  width: 100vw;
+  height: 120vw;
+}
+.main_top-main {
+  text-align: center;
+  position: relative;
+}
+.top-message {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  color: #000000d6;
+ }
+ .top-message > h3 {
+  background: #1616164a;
+  color:  #dee5f7;
+  height: 80px;
+  line-height: 80px;
+  letter-spacing: 4px;
+ }
+.login-message {
+  background: #fcf9faf3;
+  border-radius: 50%;
+  width: 240px;
+  height: 80px;
+  text-align: center;
+  margin:0 auto;
+  padding: 20px;
+  margin-top: 80px;
+  box-shadow: 0 8px 0 #edf77de6;
+}
+.sign_in-message {
+  background: #f2fe6bf3;
+  border-radius: 50%;
+  width: 240px;
+  height: 80px;
+  text-align: center;
+  margin:0 auto;
+  padding: 20px;
+  margin-top: 80px;
+  box-shadow: 0 8px 0 #a0b8339e;
+}
+.top-message2 {
+  color:  #dee5f7;
+  font-size: 32px;
+  background: #16161627;
+  /* height: 100vw; */
+  line-height: 2.8;
+  margin-top: 64px;
+  letter-spacing: 4px;
+}
+
+/* myストーリーとはhtml */
+.about-main {
+  text-align: center;
+  margin:0 auto;
+  font-weight: bold;
+  line-height: 2.7;
+}
+.about-main-top {
+  position: absolute;
+  top: 10vw;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.about1 , .about2 {
+  background: #e1f975a3;
+  box-shadow: 0 8px 0 #c3dc56a3;
+  border-radius: 50%;
+  width: 20vw;
+  margin: 0 auto;
+  margin-top: 28px;
+  text-align: center;
+}
+.about-message > p {
+  color:  #dee5f7;
+  font-size: 32px;
+  background: #16161697;
+  margin-top: 0;
+  height: 100vw;
+  letter-spacing: 4px;
+}
+.about-message > h3 {
+  background: #dfd8d85d;
+  margin-bottom: 0;
+  color: #040000c1;
+} 
+
+/* 新規登録 */
+.main-users-new {
+  position: absolute;
+  top: 80px;
+  left: 36px;
+ }
+
+ /* 複数に飛んでいるクラス注意 */
+ .form-heading {
+  background: #bcfcf3;
+  border-radius: 15px;
+  text-align: center;
+  width: 360px;
+  margin-top: 80px;
+  margin-left: 20px;
+ }
+ input[type="text"],input[name="name"] {
+  width: 300px;
+  height: 48px;
+  font-size: 28px;
+  background: #f1ecec;
+} 
+input[name="password"] {
+  width: 200px;
+ height: 48px;
+ font-size: 28px;
+ background: #f1ecec;
+}
+input[type="submit"] {
+  width: 220px;
+  height: 60px;
+  border-radius: 8px;
+  font-size: 32px;
+  background: #a1fdf9;
+  box-shadow: 0 4px 0 #83cfcc;
+  margin-left: 120px;
+}
+
+/* ユーザー登録時html */
+.main-user-show {
+  position: absolute;
+  top: 200px;
+  left: 60px;
+  line-height: 3.2;
+}
+/* の部屋へクラスクリック */
+.user_page {
+  text-align: center;
+  border-radius: 8px;
+  background: #a1fdf9;
+  box-shadow: 0 4px 0 #83cfcc;
+}
+
+/* personal.html */
+.main-posts-personal {
+ /* background: #000000; */
+}
+.personal-container {
+  width: 28%;
+  text-align: center;
+  border-radius: 8px;
+  background: #a1fdf9;
+  box-shadow: 0 4px 0 #83cfcc;
+  margin: 20px 20px;
+  margin-top: 60px;
+}
+.personal-container2 {
+  width: 28%;
+  text-align: center;
+  border-radius: 8px;
+  background: #06f7eb5d;
+  box-shadow: 0 4px 0 #83cfcc;
+  margin: 20px 20px;
+  margin-top: 300px;
+}
+
+/* 投稿 */
+textarea {
+  width: 80%;
+  height: 70vw;
+  font-size: 32px;
+  background: #eefad1;
+  margin-left: 20px;
+}
+.posts-personal-item {
+  width: 84%;
+  overflow: hidden;
+  background: #eeeab1ee;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-top: 16px;
+  margin-left: 28px;
+}
+.posts-show-item {
+  margin-left: 20px;
+}
+
+
+/* 投稿詳細 */
+.post-shows {
+font-size: 36px;
+width: 80vw;
+margin: 0 auto;
+}
+.post-shows-time {
+  font-size: 28px;
+}
+.post-menus {
+  margin-top: 40px;
+}
+button {
+  /* width: 28vw; */
+  font-size: 40px;
+  background: #eee674ee;
+  margin: 20px 38px;
+  border-radius: 6px;
+  box-shadow: 0 3px 0 #ccc564ee;
+}
+
+/* login */
+.form-users-form {
+  margin-left: 28px;
+}
+
+
+
+/* ここからpc */
+@media (min-width: 1060px) {
+
+body {
+  margin: 0;
+  font-family: 'HiraMinProN-W6', Arial, sans-serif;
+  user-select: none;
+  font-size: 16px;
+}
+
+  /* header関係 */
+header {
+  background-color:  #c7c2c279;
+  height: 80px;
+}
+
+.top {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: smaller;
+}
+
+ .header-menus {
+  background: #eaff8d;
+  width: 180px;
+  float: right;
+  border-radius: 60%;
+  padding: 0 30px;
+  margin: 16px 20px;
+  box-shadow: 0 4px 0 #bfd657;
+}
+
+ ul, li {
+  list-style-type: none;
+  font-size: 16px;
+}
+
+  /* bodyのhtml */
+img {
+  width: 100vw;
+  height: 80vw;
+}
+
+.main_top-main {
+  text-align: center;
+  position: relative;
+}
+
+.top-message {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  color: #000000;
+ }
+
+.login-message {
+  background: #ffffffe2;
+  border-radius: 50%;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  margin:0 auto;
+  line-height: 30px;
+  padding: 20px;
+  margin-top: 40px;
+  box-shadow: 0 8px 0 #f8ffb1e6;
+}
+
+.sign_in-message {
+  background: #fcf9faf5;
+  border-radius: 50%;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  margin:0 auto;
+  line-height: 30px;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+ .about-main {
+  text-align: center;
+  margin:0 auto;
+  font-weight: bold;
+  line-height: 2.8;
+ }
+
+.about-main-top {
+  position: absolute;
+  top: 10vw;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.about1 , .about2 {
+  background: #e1f975a3;
+  box-shadow: 0 8px 0 #c3dc56a3;
+  border-radius: 50%;
+  width: 160px;
+  margin: 0 auto;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.about-message > p {
+  color: #ffeeeef5;
+  font-size: 20px;
+  line-height: 3.6;
+  background: #16161686;
+  margin-top: 0;
+}
+
+.about-message > h3 {
+  background: #f4eeeeb1;
+  margin-top: 60px;
+  margin-bottom: 0;
+  color: #040000c1;
+  height: 60px;
+} 
+
+  /* 新規登録 */
+.main-users-new {
+  position: absolute;
+  top: 80px;
+  left: 36px;
+}
+
+.form-heading {
+  background: #bcfcf3;
+  border-radius: 15px;
+  text-align: center;
+  width: 300px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+input[type="text"],input[name="name"],input[name="password"] {
+  width: 160px;
+  height: 36px;
+  font-size: 16px;
+  background: #f1ecec;
+} 
+
+input[type="submit"] {
+  border-radius: 8px;
+  font-size: 16px;
+  background: #a1fdf9;
+  box-shadow: 0 4px 0 #83cfcc;
+}
+
+.main-user-show {
+  position: absolute;
+  top: 100px;
+  left: 48px;
+}
+
+.user_page {
+  text-align: center;
+  border-radius: 8px;
+  background: #a1fdf9;
+  box-shadow: 0 4px 0 #83cfcc;
+}
+
+.personal-container {
+  width: 20%;
+  text-align: center;
+  height: 30px;
+  border-radius: 8px;
+  background: #a1fdf9;
+  box-shadow: 0 4px 0 #83cfcc;
+  margin: 20px 20px;
+}
+
+textarea {
+  width: 80%;
+  height: 160px;
+  background: #eefad1;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.posts-personal-item {
+  width: 70%;
+  overflow: hidden;
+  background: #eeeab1ee;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-top: 16px;
+  margin-left: 20px;
+}
+
+.posts-show-item {
+  margin-left: 20px;
+}
+
+  /* 投稿詳細 */
+.post-shows {
+  font-size: 20px;
+}
+
+.post-shows-time {
+  font-size: 20px;
+}
+
+button {
+  font-size: 16px;
+  background: #eee674ee;
+  margin: 20px 20px;
+  border-radius: 6px;
+  box-shadow: 0 3px 0 #ccc564ee;
+}
+
+.form-users-form {
+  margin-left: 20px;
+}
+
+}

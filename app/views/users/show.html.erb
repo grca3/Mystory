@@ -1,0 +1,14 @@
+<div class="main-user-show">
+  <div class="user-container">
+    <h3><%= "ユーザー名 : #{@user.name}" %></h3>
+    <h3><%= "Mailアドレス : #{@user.email}" %></h3>
+    <h4><%= "パスワード : #{@user.password}" %></h4>
+  
+  </div>
+  <p>次回ログインで入力してください</p>
+  <div class="user_page">
+    <%= link_to("#{@user.name}の部屋へ","/posts/personal") %>
+  </div>
+</div>
+
+ 

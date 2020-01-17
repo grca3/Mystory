@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My&nbsp;ストーリー</title>
+  <%= favicon_link_tag('favicon.ico') %> 
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+  <%= stylesheet_link_tag  'application', media: 'all', 'data-turbolinks-track': 'reload' %> 
+</head>
+
+<body>
+  <header>
+    <div class="top" >
+      <%= link_to("Mystory TOP","/") %>
+    </div>
+      <ul class="header-menus">
+      <li><%= link_to("My ストーリーとは","/about") %></li>
+      </ul>
+  </header>
+
+  <% if flash[:notice] %>
+  <%= flash[:notice] %>
+  <% end %>
+  <%= yield %>
+</body>
+</html>

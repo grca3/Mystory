@@ -1,0 +1,13 @@
+// Place all the styles related to the posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+input[type="text"], textarea {
+  box-sizing: border-box;
+  width: 400px;
+  padding: 5px;
+}
+
+// textarea {
+//   height: 160px;
+// }
+
