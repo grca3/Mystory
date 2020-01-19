@@ -1,24 +1,18 @@
 # README
+アプリケーション名：Myストーリー
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Myストーリーとは日々の出来事を、自分だけの投稿・閲覧ができるアプリケーションです。
+自分の日常を振り返ることで日々を見つめ直し、より良い人生になる事を願い作成致しました。
+周りに言えない愚痴や想いを投稿するのも自由です。
+記録としても使えます。一覧で分かりやすい。
+自分を褒めまくる投稿も良し！！たまには自分自信を褒めてみませんか？
 
-Things you may want to cover:
+Ruby version 2.6.3
 
-* Ruby version
+Ruby on rails 6.0.1
 
-* System dependencies
+Database  mysql2
 
-* Configuration
+現在herokuにて閲覧可能です。
+https://my-story2019.herokuapp.com/
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
